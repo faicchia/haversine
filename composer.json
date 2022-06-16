@@ -1,0 +1,32 @@
+{
+    "name": "faicchia/haversine",
+    "description": "Yet another Haversine formula service.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "role": "Author",
+            "name": "Davide Pio Faicchia",
+            "email": "da.faicchia@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Faicchia\\Haversine\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "1.21"
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
