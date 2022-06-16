@@ -25,7 +25,7 @@
         "test": "./vendor/bin/pest",
         "test-coverage": "./vendor/bin/pest --coverage"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "config": {
         "optimize-autoloader": true,
         "sort-packages": true,
