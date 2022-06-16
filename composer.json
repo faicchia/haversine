@@ -21,6 +21,9 @@
     "require-dev": {
         "pestphp/pest": "1.21"
     },
+    "scripts": {
+        "test": "./vendor/bin/pest"
+    },
     "minimum-stability": "dev",
     "config": {
         "optimize-autoloader": true,
