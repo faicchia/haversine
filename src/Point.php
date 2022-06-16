@@ -9,7 +9,7 @@ class Point
     private float $latitude;
     private float $longitude;
 
-    public function __construct(float $latitude, float $longitude)
+    private function __construct(float $latitude, float $longitude)
     {
         if ($latitude < -90 || $latitude > 90) {
             throw new \InvalidArgumentException(
