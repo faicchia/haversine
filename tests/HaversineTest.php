@@ -20,5 +20,5 @@ it('computes the distance in miles between two points', function () {
             from: Point::new(latitude: 41.902782, longitude: 12.496366), // Rome
             to: Point::new(latitude: 51.509865, longitude: -0.118092)    // London
         )
-    )->toBeFloat()->toEqual(1433.47926 * 0.621371);
+    )->toBeFloat()->toEqual(890.722441);
 });

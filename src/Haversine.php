@@ -27,6 +27,6 @@ class Haversine
 
     public static function miles(Point $from, Point $to): float
     {
-        return static::compute($from, $to) * 0.621371;
+        return round(static::compute($from, $to) * 0.621371, 6);
     }
 }

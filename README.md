@@ -21,5 +21,5 @@ $distance = Haversine::miles(
     from: Point::new(latitude: 41.902782, longitude: 12.496366), 
     to: Point::new(latitude: 51.509865, longitude: -0.118092)    
 );
-// 890.72244126546
+// 890.722441
 ```
