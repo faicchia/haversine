@@ -13,13 +13,13 @@ class Point
     {
         if ($latitude < -90 || $latitude > 90) {
             throw new \InvalidArgumentException(
-                message: "Latitude can not be less than -90 or greater than 90",
+                message: "Latitude can not be less than -90 or greater than 90; passed in [$latitude].",
             );
         }
 
         if ($longitude < -180 || $longitude > 180) {
             throw new \InvalidArgumentException(
-                message: "Longitude can not be less than -180 or greater than 180",
+                message: "Longitude can not be less than -180 or greater than 180; passed in [$longitude].",
             );
         }
 
